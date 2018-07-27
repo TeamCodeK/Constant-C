@@ -34,7 +34,7 @@ void showNode(node* nodeInput)
 // ================= Định nghĩa cấu tạo biểu thức ================== // 
 struct constant 
 {
-    std::string name = " ";
+    std::string name = "";
     node* pHead = new node();
 
 }; typedef struct constant constant;
